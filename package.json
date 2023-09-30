@@ -5,9 +5,9 @@
   "scripts": {
     "ts:check": "tsc",
     "lint": "eslint --ext .tsx --ext .ts src/",
-    "lint-fix": "eslint ./src/**/*.tsx --fix\n",
-    "format": "prettier --check ./src",
-    "pretty": "prettier --write ./src",
+    "lint-fix": "eslint --ext .tsx --ext .ts src/ --fix",
+    "format": "prettier --check",
+    "pretty": "prettier --write",
     "start": "expo start --clear",
     "android": "expo start --android --clear",
     "ios": "expo start --ios",
